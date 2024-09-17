@@ -1,0 +1,154 @@
+/* 
+    Created on : Jan 13, 2018, 2:53:39 PM
+    Author     : Ram Niwash Mehla
+*/
+.clear
+{
+    clear:both;
+}
+
+.header
+{
+    background: #009999;
+    border-radius: 10px;
+    border: solid;
+    color: white;
+    text-align: center;
+    height:  60px; 
+    width: 100%;
+    font-family: Times New Roman;
+    font-size: x-large;
+    opacity: 0.9;
+    /*font-size: 3vw;*/
+    /*font-size: 12px;*/
+}
+
+.footer
+{
+    background: #009999;
+    border: solid;
+    border-radius: 10px;   
+    color: white;
+    text-align: center;
+    height:  40px;
+    font-family: Times New Roman ;
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;  
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.leftPanel 
+{
+    margin: 2px;
+    background: #009999;
+    width: 20%;
+    height: 100px;
+    border: solid;
+    border-radius: 10px;
+    font-family: fantasy ;
+    padding: 20px;
+    float: left;
+    color: white;
+
+}
+.middlePanel
+{
+    margin: 2px;
+    background: #009999;
+    width: 80%;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    font-family: monospace ;
+    font-size: x-large;
+    padding: 20px;
+    color: white;
+    float: left;
+    opacity: 0.9;
+
+}
+.rightPanel
+{
+    margin: 2px;
+    background:    #009999;
+    width: 20%;    
+    height: 100px;
+    border: solid;
+    font-family: fantasy ;
+    border-radius: 10px;
+    float: right;   
+    padding: 20px;
+}
+
+.myPic{
+    background-image: url(../images/user-face.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin: 2px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    float: left;
+    border: solid;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.9;
+}
+
+body{
+    background-image: url(../images/path.jpg);
+    background-repeat:no-repeat;
+    background-size:100vw 100vh;
+}
+
+.linkedin-icon{
+    background-image: url(../images/linkedin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+}
+.twitter-icon{
+    background-image: url(../images/twitter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+}
+.facebook-icon{
+    background-image: url(../images/facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+}
+.instagram-icon{
+    background-image: url(../images/instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+
+}
+.dynamic-container{
+    color: white;
+    margin: 2px;
+    background:#009999;
+    padding: 20px;
+    float: right;
+    border: solid;
+    border-radius: 10px;
+    opacity: 0.9;
+}

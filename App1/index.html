@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title Here</title>
+        <link rel="icon" type="image/png" href="./images/user-face.jpg">
+        <link rel="stylesheet" href="./css/my-style-sheet.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="header">
+            Header
+        </div>
+        <div class="myPic"></div>
+
+        <div class="middlePanel">Sample Label <br/><br/>
+            <label style="color: yellow">Enter Animal Name : </label> <input  type="text" id="uName" placeholder="enter here"/>&nbsp;
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="getMessages()">
+                Click Me
+            </button>
+        </div>
+        <div class="dynamic-container">
+            <a href="#"><div class="linkedin-icon"></div></a>
+            <a href="#"><div class="twitter-icon"></div></a>
+            <a href="#"><div class="facebook-icon"></div></a>
+            <a href="#"><div class="instagram-icon"></div></a>
+        </div>
+    <marquee scrollamount="30" style="margin-top: 10%"><img hidden src="./images/animated-lion-gif-19.gif" id="msg-img-id" /></marquee>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="tID">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/messagess.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

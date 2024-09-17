@@ -1,0 +1,30 @@
+a {
+    margin: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: black;
+    cursor: default;
+}
+
+a:hover {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(4, 216, 198);
+    color: black;
+    cursor: default;
+}
+
+a:focus {
+    border-radius: 5px;
+    text-decoration: none;
+    background: burlywood;
+    color: black;
+}
+
+.activeTab {
+    border-radius: 5px;
+    text-decoration: none;
+    background: burlywood;
+    color: black;
+}
